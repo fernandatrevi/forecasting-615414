@@ -42,9 +42,9 @@ The notebook examines the time series plot, autocorrelation function, periodogra
 
 ## Reproducibility
 
-The original work was developed in Google Colab using Python, pandas, statsmodels, pmdarima, matplotlib, scipy and scikit-learn.
+The original work was developed in Google Colab using Python, pandas, statsmodels, pmdarima, matplotlib, scipy and scikit-learn. The notebook is included in this folder with its code and explanations; saved notebook outputs have been cleared for public sharing.
 
-To reproduce it, use the supplied notebook alongside the historical file `TSLA_acciones.xlsx`. Notebook and source-data upload are handled separately from this documentation. This README is not itself executable.
+To reproduce it, install the libraries from `requirements.txt`, open `TSLA_Pronostico_Modelos_TS.ipynb` in Google Colab, and upload the historical workbook as `TSLA_acciones.xlsx` to the Colab working directory. The workbook is not hosted here; without it, the notebook cannot execute from start to finish. Run all notebook cells in order.
 
 ## Limitations
 
@@ -56,4 +56,4 @@ To reproduce it, use the supplied notebook alongside the historical file `TSLA_a
 
 ## Project status
 
-Documentation prepared in English. The original Colab notebook and dataset are not yet included in this folder.
+English documentation, requirements, and the cleaned Colab notebook are committed. The Excel source workbook must be provided separately to run the analysis.
